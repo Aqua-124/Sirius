@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const fetch = require('node-fetch');
 const config = require('./config');
-
+const { keep_alive } = require("./keep_alive");
 const { Collection } = require('discord.js');
 const { Client, Enums } = require('fnbr');
 const { readFile, writeFile } = require('fs').promises;
