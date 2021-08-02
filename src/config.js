@@ -4,7 +4,7 @@ module.exports = {
 		status: '%clientUserDisplayName%\'s account.', // The status of the Discord client.
 		statusType: 'WATCHING', // The type of the Discord status.
 		token: 'TOKEN', // Discord token.
-		prefix: '>', // Discord prefix.
+		prefix: '!', // Discord prefix.
 		ownerIDs: ['OWNER_ID'], // The people that can use your bot.
 		ownerOnly: true // Recommended.
 	},
@@ -16,10 +16,10 @@ module.exports = {
 		pickaxe_id: 'Pickaxe_LockJaw', // Default pickaxe.
 		
 		status: 'Hey!', // Custom status.
-		platform: 'PSN', // Platform.
+		platform: 'WIN', // Platform.
 
 		acceptFriend: true, // Toggle friend requests.
 		acceptInvite: true, // Toggle party invites.
-		joinMessage: 'Hey %memberName%!', // Message to send if someone joins.
+		joinMessage: '', // Message to send if someone joins.
 	}
 }
